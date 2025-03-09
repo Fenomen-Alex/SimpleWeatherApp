@@ -1,0 +1,37 @@
+body {
+    background-color: #e9ecef;
+    transition: background-color 0.3s;
+}
+.weather-card {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.dark-theme {
+    background-color: #343a40;
+    color: white;
+}
+.dark-theme .weather-card {
+    background-color: #495057;
+    color: white;
+}
+.toast-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+.toast {
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.toast-success {
+    background-color: #28a745; /* Green for success */
+    color: white;
+}
+.toast-error {
+    background-color: #dc3545; /* Red for error */
+    color: white;
+}
